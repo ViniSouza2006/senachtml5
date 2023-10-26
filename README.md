@@ -5,3 +5,5 @@
 #Diario de bordo
 
 Pagina 45 17/10/2023
+
+Pagina 87 25/10/2023
