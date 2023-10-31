@@ -55,5 +55,29 @@ busca consigam identificar quais são os títulos mais importantes da publicaç�
 e a indexação do conteúdo.
 
 Pagina 38
+Trabalhando com divisão de temas
 
-Continuar Diario Re-organização
+A tag <"hr"> cria uma linha horizontal em uma página HTML. O elemento <"hr"> pode ser usado para
+separar o conteúdo,uma vez que é comum existirem vários temas sendo abordados. 
+
+Pagina 39
+Utilizando caracteres e símbolos especiais
+
+Eles são representados pelo símbolo "&" seguindo de caracteres comuns, finalizados por "." 
+(ponto e vírgula). 
+
+Opções:
+"&lt;" Maior Que
+"&gt;" Menor Que 
+"&amp;" E comercial
+"&cent;" Centavos
+"&pound;" Libra
+"&yen;" Yen
+"&euro;" Euro
+"&copy;" Copy
+"&reg;" Marca Registrada
+
+Pagina 41 
+trabalhando com listas
+
+Continuar...
