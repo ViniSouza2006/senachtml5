@@ -81,3 +81,24 @@ Pagina 41
 trabalhando com listas
 
 Continuar...
+
+Começo Capitulo 4 
+HTML5 Elementos técnicos
+ Pág 161
+
+Novos elementos
+
+Pág 161
+
+Novos Elementos Definição:
+
+"<header>" Especifica um cabeçalho de um documento ou uma seção. 
+Deve ser utilizado quando seu conteúdo tiver o significado introdutório
+para a página. A página pode ter varios elementos "<header>" em um mesmo documento;
+
+"<nav>" define um conjumto de links de navegação. No entanto nem todos os links em 
+um documento precisam estar dentro de um elemento "<nav>";
+
+<section> define uma seção do documento, um agrupamento temático de um documento,
+um agrupamento temático de um conteúdo que geralmente vem com um título.A página 
+pode inserir informações, como: introdução, conteúdo e informações de contato;
