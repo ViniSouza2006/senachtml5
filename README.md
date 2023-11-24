@@ -102,3 +102,13 @@ um documento precisam estar dentro de um elemento "<nav>";
 <section> define uma seção do documento, um agrupamento temático de um documento,
 um agrupamento temático de um conteúdo que geralmente vem com um título.A página 
 pode inserir informações, como: introdução, conteúdo e informações de contato;
+
+"<article>" Especifica um conteúdo própio e indenpedente de outros conteúdos. Toda
+vez que a página tiver uma informação que faça sentido por si própria de forma 
+indenpedente do resto do site, esse conteúdo deve ser colocado nesse elemento da página.
+por exemplo: postagem de blogs, Artigos para jornal, fóruns de discussão;
+
+"<aside>" define um conteúdo secundário que pode ser colocado como uma 
+barra lateral, um conteúdo que pode agregar ou não as informaçoes relativas á página;
+
+"<Footer>" 
