@@ -88,27 +88,35 @@ HTML5 Elementos técnicos
 
 Novos elementos
 
-Pág 161
+Pág 161 23/11/2023
 
 Novos Elementos Definição:
 
-"<header>" Especifica um cabeçalho de um documento ou uma seção. 
+<"header"> Especifica um cabeçalho de um documento ou uma seção. 
 Deve ser utilizado quando seu conteúdo tiver o significado introdutório
 para a página. A página pode ter varios elementos "<header>" em um mesmo documento;
 
-"<nav>" define um conjumto de links de navegação. No entanto nem todos os links em 
+<"nav"> define um conjumto de links de navegação. No entanto nem todos os links em 
 um documento precisam estar dentro de um elemento "<nav>";
 
-<section> define uma seção do documento, um agrupamento temático de um documento,
+<"section"> define uma seção do documento, um agrupamento temático de um documento,
 um agrupamento temático de um conteúdo que geralmente vem com um título.A página 
 pode inserir informações, como: introdução, conteúdo e informações de contato;
 
-"<article>" Especifica um conteúdo própio e indenpedente de outros conteúdos. Toda
+<"article"> Especifica um conteúdo própio e indenpedente de outros conteúdos. Toda
 vez que a página tiver uma informação que faça sentido por si própria de forma 
 indenpedente do resto do site, esse conteúdo deve ser colocado nesse elemento da página.
 por exemplo: postagem de blogs, Artigos para jornal, fóruns de discussão;
 
-"<aside>" define um conteúdo secundário que pode ser colocado como uma 
+<"aside"> define um conteúdo secundário que pode ser colocado como uma 
 barra lateral, um conteúdo que pode agregar ou não as informaçoes relativas á página;
 
-"<Footer>" 
+<"Footer"> esse elemento especifica um rodapé de um documento ou de uma seção. Ele
+deve conter informações sobre o autor do documento, os direitos autorais, os links para
+termos de uso, as informações de contato, etc. É possível ter vários elementos "<footer>"
+em uma página.
+
+Página 164 23/11/2023
+
+Elementos para página "produtos"
+
