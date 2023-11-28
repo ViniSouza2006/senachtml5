@@ -78,7 +78,11 @@ Opções:
 "&reg;" Marca Registrada
 
 Pagina 41 
-trabalhando com listas
+trabalhando com listas 
+
+Uso de listas Ordenadas e Não Ordenadas
+Sintaxe:<"ul"> <"ul"> <"li"> <"/li">
+
 
 Continuar...
 
