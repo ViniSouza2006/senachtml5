@@ -8,6 +8,7 @@
 <meta charset="utf-8">
 
 <title>Meu amigo cão - Petshop</title>
+<link href="estilos/principal.css" rel="stylesheet" type="text/css">
 
 <style>
     h2 {
@@ -57,7 +58,8 @@
         list-style-type: none;
         white-space: pre;
         line-height: .9em;
-        /* 
+        /* definir a variável de contagem */
+        counter-reset: contador;
     }
     ol {
         list-style-type: none;
@@ -68,6 +70,27 @@
         /* usar o número do contador como conteúdo */
         content: "Questão" counter(contador) " \00BB ";
     }
+    dd a [target="_blank"] {
+        text-decoration: none;
+        color: #c0262c;
+        font-weight: bold;
+        padding: 7px;
+        display: inline-block;}
+
+    dd a [target="blank"] :hover {
+        text-decoration: underline;
+    }
+    dd a[href="#top"] {
+        text-decoration: none;
+        color: #c0262c;
+        font-weight: bold;
+        padding: 7px 0 7px 30px;
+        background: url(multimidia/seta-voltar.png) no-repeat left center;
+    }
+    dd a[href="#top"] :hover {
+        text-decoration: underline;
+        background: url(multimidia/seta-voltar-hover.png) no-repeat left center;
+    } 
 </style>
 </head>
 
