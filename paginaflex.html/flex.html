@@ -5,13 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(60, 69, 110);
+        }
+
+        .flex-container > div {
+            background-color: rgb(40, 38, 54);
+            margin: 12px;
+            padding: 15px;
+            font-size: 20px;
+
+        }
+        
+        #teste1 {
+
+        }
+    </style>    
+    </body>
 </head>
 <body>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>5</p>
+    <header>
+    <div class="flex-container">
+    <div id="Teste1">
+    <p>cabeçalho</p>
+    </div>
+    </header>
+
+
+    <div class="flex-container">
+    <div id="teste2">
+    <p>menu</p>
+    </div>
+
+    <footer>
+    <div class="flex-container">
+    <div id="teste3">
+    <p>Roda-pé</p>
+    </div>
+    </footer>
+
 </body>
 </html>
