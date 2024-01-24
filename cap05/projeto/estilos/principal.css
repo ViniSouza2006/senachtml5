@@ -384,6 +384,8 @@ footer p {
     margin: 0 0 10px; padding: 0;
     overflow: auto;
 }
+
+
 .anuncioAnime .boxAnuncio {
     width: 163px; height: 230px;
     border-bottom: solid thin #C0262C;
@@ -391,9 +393,11 @@ footer p {
     position: relative;
     overflow: hidden; 
 }
+
+
 .anuncioAnime .boxAnuncio p {
     text-align: center;
-    font-size: 95em;
+    font-size: .95em;
     line-height: 1.3em;
     background-color: rgba(225, 225, 225, 1);
     border-left: solid thin #C0262C;
@@ -404,7 +408,9 @@ footer p {
     bottom: -80px; left: 0;
     transition: 1s linear 0.1; cursor: default;
 }
-.anuncioAnime .boxAnuncio p::first-line {
+
+
+.anuncioAnime .boxAnuncio p:first-line {
     font-size: 1.1em;
     font-variant: inherit;
     font-style: normal;
@@ -416,3 +422,6 @@ footer p {
     background-color: rgba(225, 225, 225, 0.7);
     bottom: 0;
 }
+
+/* controle de áudio */ 
+aside audio {width: 230px;}
