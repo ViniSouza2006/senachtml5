@@ -151,7 +151,7 @@ label {
     border:  solid 1px;
 }
 
-#banhoEtosa fieldset label.labelSimple {
+#banhoEtosa fieldset label.labelSimples {
     display: inline;
     float: none;
 }
@@ -182,7 +182,7 @@ label {
 }
 
 /* página quem somos */ 
-#quemsomos main img {
+#quemSomos main img {
     float: left;
     margin: 0 20px 20px 0;
     padding: 10px;
@@ -217,7 +217,7 @@ main p{
     text-align: justify;
 }
 
-main h2+p::first-line {
+main h2+p:first-line {
     font-size: 1.17em;
     font-variant:small-caps;
     font-weight: bolder;
@@ -229,7 +229,7 @@ main hr {
 }
 
 /* estrutura */
-body{
+body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -292,10 +292,10 @@ header section figure a:last-child {
 
 /* estrutura de navegação */ /* >>>NAVEGAÇÃO BACKGROUND PRETO<<< */ 
 nav {
-    background-color: ;
+    background-color: #000;
     overflow: auto;
     clear: both;
-    margin-top: 1px;
+    margin-top: 10px;
 }
 
 nav ul {
@@ -317,9 +317,9 @@ nav ul a {
 }
 
 #inicial a[href="index.html"],
-#quemsomos a[href="quem-somos.html"],
+#quemSomos a[href="quem-somos.html"],
 #produtos a[href="produtos.html"],
-#banhoEtosa a[href="banhoEtosa.html"],
+#banhoEtosa a[href="banho-e-tosa.html"],
 #curiosidades a[href="curiosidades.html"] {
         background-color: #C0262C;
 }
