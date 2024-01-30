@@ -1,7 +1,23 @@
-#title {
+#titulo {
     color: #909;
 }
 
 #campo {
-    
+    border: solid #FCC 3px;
+}
+
+
+#form1_back {
+    float: left;
+    height: 380px;
+}
+
+#entrada {
+    margin: 8px;
+    width: 90%;
+}
+
+#botão {
+    width: 100px;
+    border: 10px;
 }

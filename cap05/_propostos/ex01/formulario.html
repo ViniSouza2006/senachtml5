@@ -9,42 +9,43 @@
 </head>
 
 <body>
+
 <header>
-<h1 id="title">Dados da conta</h1>
-<hr id="title">
+<h1 id="titulo">Dados da conta</h1>
+<hr id="sobrelinha">
 </header>
 
 <img id="form1_back" src="form1_back.jpg" alt="">
 
-<aside id="campo">
+<aside>
 <form action="" method="post" name="form">
   
   <input type="hidden" name="deOnde" value="form organizado">
-
-  <fieldset>
+  <fieldset id="campo">
   <legend> Dados Pessoais: </legend>
   <p>
     <label for="nome"> Nome: </label>
-    <input type="text" name="nome" id="nome"></p>
+    <input id="entrada" type="text" name="nome" id="nome"></p>
     
   <p>
     <label for="email"> Email: </label>
-    <input type="text" name="email" id="email"></p>
+    <input id="entrada" type="text" name="email" id="email"></p>
   </fieldset>
   
-  <fieldset> 
-  <legend> Dados da Conta: </legend>  
+  <fieldset id="campo">
+  <legend> Dados da Conta: </legend>
   <p>
     <label for="senha">Senha:</label>
-    <input type="password" name="senha" id="senha"></p>
+    <input id="entrada" type="password" name="senha" id="senha"></p>
     
   <p>
     <label for="frase"> Frase opcional: </label>
-    <textarea name="frase" id="frase"></textarea></p>
+    <textarea id="entrada" name="frase" id="frase"></textarea></p>
     
   </fieldset>
   <p>
-    <input type="submit" value="enviar"></p>
+    <br>
+    <input id="botão" type="submit" value="enviar"></p>
 </form>
 </aside>
 
